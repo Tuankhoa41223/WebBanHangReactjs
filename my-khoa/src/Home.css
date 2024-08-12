@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.luuY{
+    background-image: url(https://i.pinimg.com/564x/4b/89/b8/4b89b807e13e2a26a13d62bcf520ae84.jpg);
+    background-size: 100% 100%;
+    .card-body{
+       padding: 60px 20px;
+       position: relative;
+       overflow: hidden;
+       h1{
+        font-size: 50px;
+        color: white;
+        transition: transform 1.0s ease;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+
+        &:hover{
+            color: black;
+            transform: scale(1.1);
+             box-shadow: 0 0 10px rgba(0, 0, 0, 1.5);
+        }
+       }
+       p{
+        font-size: 20px;
+        
+        opacity: 0.8;
+        transition: opacity 1.0s;
+        &:hover {
+            opacity: 2;
+        }
+       }
+        a{
+            border-radius: 30px;
+            padding: 15px;
+            position: relative;
+            transition: transform 0.3s;
+            &:hover{
+                transform: translateY(-10%);
+                background-color: pink;
+                color: rgb(238, 94, 11);
+            }
+            
+        }
+    }
+}
+.carousel-item{
+  
+    img{
+        height: 350px;
+        width: 100%;
+    
+    }
+    .carousel-caption{
+        h5{
+            color: white;
+        }
+        p{
+            color: white;
+        }
+    }
+}
+.carousel-control-prev-icon{
+    color: white;
+}
+
+.product2 {
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(155, 15, 15);
+    padding: 20px;
+    .nut{
+        button{
+            &:hover{
+                color: white;
+                background-color: aqua;
+            }
+        }
+    }
+    .card {
+        position: relative;
+        overflow: hidden;
+        border: 1px solid #ccc;
+
+        img {
+            height: 250px;
+            padding: 20px;
+            transition: transform 1.0s ease;
+            
+            &:hover {
+                transform: scale(1.2);
+            }
+
+        }
+
+    }
+
+    .card-body {
+        position: relative;
+        overflow: hidden;
+
+        span {
+            color: red;
+            transition: transform 0.5s ease;
+        }
+
+        &:hover span {
+            transform: scale(1.2);
+        }
+
+        h5 {
+            transition: transform 0.5s ease;
+        }
+
+        p {
+            transition: transform 0.5s ease;
+        }
+
+        &:hover h5 {
+            color: orange;
+            transform: scale(1.5);
+
+        }
+
+        &:hover p {
+            color: rgb(38, 81, 129);
+            transform: scale(1.3);
+        }
+    }
+}
+
+.product3 {
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(216, 179, 16);
+    padding: 20px;
+    .nut{
+        button{
+            &:hover{
+                color: white;
+                background-color: aqua;
+            }
+        }
+    }
+    .card {
+        position: relative;
+        overflow: hidden;
+        border: 1px solid #ccc;
+        img {
+            height: 200px;
+            padding: 10px;
+            transition: transform 1.0s ease;
+            transform: skewX(-10deg);
+            transition: transform 0.3s;
+
+            &:hover {
+                transform: scale(1.2);
+                transform: skewY(20deg);
+            }
+
+        }
+
+        .card-body {
+            position: relative;
+            overflow: hidden;
+
+            span {
+                color: red;
+                transition: transform 0.5s ease;
+            }
+
+
+            h5 {
+                transition: transform 0.5s ease;
+            }
+
+            p {
+                transition: transform 0.5s ease;
+            }
+
+            &:hover h5 {
+                color: orange;
+                transform: scale(1.5);
+
+            }
+
+            &:hover p {
+                color: rgb(38, 81, 129);
+                transform: scale(1.3);
+            }
+        }
+    }
+  
+}
+.boxroom{
+    background-color: rgba(207, 207, 255, 0.87);
+    padding: 10px;
+    h2{
+        color: black;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .boxchu{
+        
+        a{
+            text-align: center;
+            height: 20%;
+            border: 1px solid white;
+            color: black;
+            padding: 20px;
+            border-radius:  20px;
+            width: 23%;
+            text-decoration: none;
+            &:hover{
+                background-color: orange;
+            }
+            span{
+                font-size: 20px;
+            }
+            i{
+                margin-right: 10px;
+                font-size: 35px;
+            }
+            
+        }
+       
+    }
+
+}
+.product2{
+    .iphone{     
+        position: relative;
+        margin: 0;   
+        .nut-trai{
+            margin-top: 0;
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: auto;
+            border-radius: 50%;
+        }
+        .nut-phai{
+            margin-top: 0;
+            position: absolute;
+            right: 0px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: auto;
+            border-radius: 50%;
+        }
+    }
+    
+
+}
