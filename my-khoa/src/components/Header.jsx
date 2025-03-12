@@ -41,6 +41,12 @@ function Header({setAuThenTion}) {
                     Customers
                   </a>
                 </Link>
+                <Link className='list' as={Link} to="game">
+                  <a href="#" class="nav-link text-white">
+                    <i class="fa-solid fa-user"></i>
+                    Game
+                  </a>
+                </Link>
               </ul>
             </div>
           </div>

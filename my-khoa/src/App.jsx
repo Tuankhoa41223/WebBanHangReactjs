@@ -12,6 +12,7 @@ import { useState } from 'react';
 import Categories from './components/Categories.jsx';
 import Product from './components/Product.jsx';
 import Detail from './components/Detail.jsx';
+import Game from './components/Game.jsx';
 function App() {
   const [auThenTion, setAuThenTion] = useState(false);
   return (
@@ -29,12 +30,14 @@ function App() {
           <Routes>
             <Route exact path='/login' element={<Login />} />
             <Route exact path='/signup' element={<Signup />} />
-            <Route exact path='/home' element={<Home />} />
-            <Route exact path='/' element={<Todolist />} />
+            <Route exact path='/' element={<Home />} />
+            <Route exact path='/todolist' element={<Todolist />} />
             <Route exact path='/account' element={<Account />} />
             <Route exact path='/categories' element={<Categories/>} />
             <Route exact path='/product' element={<Product/>}/>
             <Route exact path='/detail/:id' element={<Detail/>}/>
+            <Route exact path='/game' element={<Game/>}/>
+
           </Routes>
           <Footer />
         </>
